@@ -5,8 +5,8 @@ from formulario import Interfaz
 
 dato_color = input("Escriba el color: ")
 dato_titulo = input("Escriba el nombre de la interfaz: ")
-pregunta1 = input("Escriba la pregunta P1: ")
-pregunta2 = input("Escriba la pregunta P2: ")
+pregunta1 = input("Escriba la primera pregunta: ")
+pregunta2 = input("Escriba la segunda pregunta: ")
 
 obj_formulario = Interfaz(dato_color, dato_titulo)#Ventana total
 formulario_usuario = obj_formulario.crear_formulario()#Elementos retornados en la ventana
